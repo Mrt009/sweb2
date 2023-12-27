@@ -1,0 +1,241 @@
+.index_header1 {
+    display: flex !important;
+    min-width: 100%;
+    height: 100px;
+    align-items: center;
+    height: auto;
+    background: white;
+    position: absolute;
+    z-index: 9990;
+    background-image: #395A8B;
+}
+
+.header-logo {
+    max-width: 70%;
+    padding-left: 4%;
+    padding-top: 4%;
+
+}
+
+#top-container {
+    background: transparent;
+    background-color: rgb(57, 90, 139, 38%);
+    z-index: 9990;
+}
+
+#top-header {
+    background-color: #395a8b;
+    height: 25px;
+}
+
+#top-header h5 {
+    color: white;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+.header {
+
+    background: #395a8b;
+    list-style-type: none;
+    height: 40px;
+    background-color: #002e5d;
+    z-index: 9999;
+
+}
+
+.navlist11 {
+    align-items: center;
+}
+
+.content {
+    padding: 16px;
+}
+
+
+.header-logoss {
+    width: 100px;
+    height: 110px;
+    padding-left: 20px;
+}
+
+.header_para1 {
+    position: relative;
+    font-size: 34px;
+    font-family: serif;
+    font-weight: 400;
+    top: 10px;
+    left: -15px;
+    color: white;
+}
+
+.order {
+    background-color: #ff5733;
+}
+
+.flash_gif {
+    width: 40px;
+    height: 25px;
+}
+
+.marquee {
+    background-color: #002e5d;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#banner_pic {
+    height: 100vh;
+}
+
+#first-banner {
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    -moz-transition: opacity 0.8s ease;
+    -webkit-transition: opacity 0.8s ease;
+}
+
+.banner_pic {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    z-index: 9980;
+}
+
+#banners .carousel-indicators {
+    position: absolute;
+    transform: translate(0%, 50%);
+    top: 92%;
+    width: 15% !important;
+    height: 0px !important;
+    display: inline-flex;
+    margin-right: 0;
+    margin-left: 41.5%;
+    margin-bottom: 22%;
+}
+
+#banner-title {
+    margin: auto 5%;
+    height: 100%;
+    width: 600px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+#banner-title h3 {
+    margin: 0 !important;
+    font-family: serif;
+    font-style: italic;
+    font-size: 315%;
+    font-weight: bolder;
+}
+
+@media (max-width: 700px) {
+
+    #banners .carousel-indicators {
+        position: absolute;
+        transform: translate(0%, 50%);
+        top: 20%;
+        width: 5% !important;
+        height: 5% !important;
+        display: block;
+        margin-right: 0;
+        margin-left: 97%;
+        margin-bottom: 22%;
+    }
+
+    #banner-title {
+        margin: auto 10%;
+        height: 100%;
+        width: 300px;
+        margin-top: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+
+    #banner-title h3 {
+        margin: 0 !important;
+        font-family: serif;
+        font-style: italic;
+        font-size: 215%;
+        font-weight: bolder;
+    }
+
+}
+
+
+#banner-title p {
+    width: 40%;
+    color: #fff;
+    font-size: 180%;
+}
+
+#banner-title button {
+    background: transparent;
+    color: #fff;
+    border: none;
+    position: relative;
+    font-size: 120%;
+}
+
+#banner-title button:hover {
+    color: white;
+}
+
+.arrow-right {
+    visibility: hidden;
+    font-size: 100%;
+    font-weight: 200;
+}
+
+#banner-title button:hover .arrow-right {
+    visibility: visible;
+    color: #f30;
+}
+
+#banner-title button:after {
+    position: absolute;
+    content: "";
+    display: block;
+    background: #f30;
+    height: 4%;
+    width: 0;
+    transform: scaleX(0);
+    padding-top: 0;
+    transition: transform .3s linear;
+    transform-origin: left;
+}
+
+#banner-title button:hover:after {
+    width: 100%;
+    height: 4%;
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+@media (max-width: 700px) {
+    /* not working */
+
+    .carousel-inner .carousel-item {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1000px) {
+    #banner_pic {
+        height: auto;
+    }
+}
+
+.dropdown-content {
+    margin-left: 0px;
+}

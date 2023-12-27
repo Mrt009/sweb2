@@ -1,0 +1,153 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+.notice{
+	position: relative;
+ 	background-color: #395a8b92; 
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;  
+}
+
+.notice .card1{
+	width:800px;
+	position: relative;
+	height: 450px;
+	/* background: #fef8dd; */
+	overflow-y: scroll;
+	/* margin:30px 10px; */
+	/* padding: 20px 15px; */
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display:flex;
+	flex-direction: column;
+	/* box-shadow: 1px 10px #f7d8ba; */
+	transition:0.3s ease-in-out;
+	border-radius: 70px;
+	text-align: center;
+	/* margin-top: 5%; */
+}
+
+.card1::-webkit-scrollbar {
+    display: none;
+}
+
+.card1 {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+  }
+
+.card1 h1{
+	/* padding-left: 100px; */
+	/* font-size: 10px; */
+	text-align: center;
+}
+
+
+.card1 p{
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: left;
+}
+
+#myBtn{
+	box-shadow: 0.5px 5px #4e4d4f;
+	border-radius: 20px;
+	font-weight: 700;
+	background-color: #d5d0d7;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.notice .card2{
+	width:400px;
+	position: relative;
+	height: 400px;
+	background: #dae3ed;
+	margin:30px 10px;
+	padding: 20px 15px;
+	display:flex;
+	flex-direction: column;
+	box-shadow: 0.5px 10px #5a7792;
+	transition:0.3s ease-in-out;
+	border-radius: 70px;
+	/* margin-top: 5%; */
+}
+
+
+.card2 button{
+	width: 300px
+}
+
+
+#btn1 a{
+	font-weight: 400;
+	text-decoration:none
+}
+#btn1{
+	
+	box-shadow: 0.5px 10px #8757b2;
+	background-color: #cd96e9;
+}
+#btn1:hover {
+	transform: scale(1.1);
+	color:#b00
+}
+
+#btn2 a{
+	font-weight: 400;
+	text-decoration:none
+}
+#btn2{
+	box-shadow: 0.5px 10px #276221;
+	background-color: #5bb450;
+}
+#btn2:hover {
+	transform: scale(1.1);
+	color:#000064;
+}
+
+#btn3 a{
+	font-weight: 400;
+	text-decoration:none
+}
+
+#btn3{
+	box-shadow: 0.5px 10px #e75480;
+	background-color: #ffa9d0;
+}
+#btn3:hover {
+	transform: scale(1.1);
+	color:#bdd728;
+}
+
+#btn4 a{
+	font-weight: 400;
+	text-decoration:none
+}
+#btn4{
+	box-shadow: 0.5px 10px #e05f09;
+	background-color: #ffb07c;
+}
+#btn4:hover {
+	transform: scale(1.1);
+	color:green;
+}
+
+
+.card2 form{
+	text-align: center;
+}
+
+.btn{
+	margin: 10px 10px 10px 10px;
+	box-shadow: 0.5px 10px #e6e6e6;
+
+}

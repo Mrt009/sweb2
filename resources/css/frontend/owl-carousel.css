@@ -1,0 +1,567 @@
+
+.owl-carousel-wrapper {
+    padding: 0 40px
+}
+
+.owl-nav-custom [class*="owl-"],#media #news-events-carousel.owl-theme .owl-nav [class*="owl-"],#achievements #achievementsCarousel.owl-theme .owl-nav [class*="owl-"],.owl-thumb-gallery-carousel.main-theme.owl-theme .owl-nav [class*="owl-"],.owl-thumb-gallery-carousel.corporate-theme.owl-theme .owl-nav [class*="owl-"],.owl-thumb-gallery-carousel.corporate-theme-2.owl-theme .owl-nav [class*="owl-"],#testimonial-carousel.owl-theme .owl-nav [class*="owl-"],#board #board-carousel.owl-theme .owl-nav [class*="owl-"] {
+    position: absolute;
+    filter: Alpha(Opacity=20);
+    opacity: 1;
+    top: 6px;
+    zoom:1;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    line-height: 26px;
+    width: 24px;
+    height: 24px;
+    background-color: #FF5733;
+    color: #FF5733;
+    font-size: 20px
+}
+
+.owl-nav-custom [class*="owl-"]:hover,#media #news-events-carousel.owl-theme .owl-nav [class*="owl-"]:hover,#achievements #achievementsCarousel.owl-theme .owl-nav [class*="owl-"]:hover,.owl-thumb-gallery-carousel.main-theme.owl-theme .owl-nav [class*="owl-"]:hover,.owl-thumb-gallery-carousel.corporate-theme.owl-theme .owl-nav [class*="owl-"]:hover,.owl-thumb-gallery-carousel.corporate-theme-2.owl-theme .owl-nav [class*="owl-"]:hover,#testimonial-carousel.owl-theme .owl-nav [class*="owl-"]:hover,#board #board-carousel.owl-theme .owl-nav [class*="owl-"]:hover {
+    filter: Alpha(Opacity=100);
+    opacity: 1
+}
+
+.owl-nav-custom [class*="owl-"].disabled,#media #news-events-carousel.owl-theme .owl-nav [class*="owl-"].disabled,#achievements #achievementsCarousel.owl-theme .owl-nav [class*="owl-"].disabled,.owl-thumb-gallery-carousel.main-theme.owl-theme .owl-nav [class*="owl-"].disabled,.owl-thumb-gallery-carousel.corporate-theme.owl-theme .owl-nav [class*="owl-"].disabled,.owl-thumb-gallery-carousel.corporate-theme-2.owl-theme .owl-nav [class*="owl-"].disabled,#testimonial-carousel.owl-theme .owl-nav [class*="owl-"].disabled,#board #board-carousel.owl-theme .owl-nav [class*="owl-"].disabled,.owl-nav-custom [class*="owl-"].disabled:hover,#media #news-events-carousel.owl-theme .owl-nav [class*="owl-"].disabled:hover,#achievements #achievementsCarousel.owl-theme .owl-nav [class*="owl-"].disabled:hover,.owl-thumb-gallery-carousel.main-theme.owl-theme .owl-nav [class*="owl-"].disabled:hover,.owl-thumb-gallery-carousel.corporate-theme.owl-theme .owl-nav [class*="owl-"].disabled:hover,.owl-thumb-gallery-carousel.corporate-theme-2.owl-theme .owl-nav [class*="owl-"].disabled:hover,#testimonial-carousel.owl-theme .owl-nav [class*="owl-"].disabled:hover,#board #board-carousel.owl-theme .owl-nav [class*="owl-"].disabled:hover {
+    background-color: #ddd
+}
+
+.owl-nav-custom .owl-prev,#media #news-events-carousel.owl-theme .owl-nav .owl-prev,#achievements #achievementsCarousel.owl-theme .owl-nav .owl-prev,.owl-thumb-gallery-carousel.main-theme.owl-theme .owl-nav .owl-prev,.owl-thumb-gallery-carousel.corporate-theme.owl-theme .owl-nav .owl-prev,.owl-thumb-gallery-carousel.corporate-theme-2.owl-theme .owl-nav .owl-prev,#testimonial-carousel.owl-theme .owl-nav .owl-prev,#board #board-carousel.owl-theme .owl-nav .owl-prev {
+    left: -35px
+}
+
+.owl-nav-custom .owl-next,#media #news-events-carousel.owl-theme .owl-nav .owl-next,#achievements #achievementsCarousel.owl-theme .owl-nav .owl-next,.owl-thumb-gallery-carousel.main-theme.owl-theme .owl-nav .owl-next,.owl-thumb-gallery-carousel.corporate-theme.owl-theme .owl-nav .owl-next,.owl-thumb-gallery-carousel.corporate-theme-2.owl-theme .owl-nav .owl-next,#testimonial-carousel.owl-theme .owl-nav .owl-next,#board #board-carousel.owl-theme .owl-nav .owl-next {
+    right: -35px
+}
+
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: #869791;
+    color: #FFF;
+    text-decoration: none
+}
+
+.owl-theme .owl-nav .disabled {
+    opacity: .5;
+    cursor: default
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px
+}
+
+.owl-theme .owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom:1;
+    display: inline
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px
+}
+
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span {
+    background: #869791
+}
+
+.owl-theme .owl-controls {
+    margin-top: 10px;
+    text-align: center
+}
+
+.owl-theme .owl-controls .owl-nav>div {
+    position: absolute;
+    background: transparent;
+    color: #000;
+    display: inline-block;
+    zoom:1;
+    display: inline;
+    font-size: 36px;
+    line-height: 0;
+    filter: Alpha(Opacity=50);
+    opacity: 0.5;
+    padding: 0 12px
+}
+
+.owl-theme .owl-controls .owl-nav>div:hover {
+    background-color: #000;
+    filter: Alpha(Opacity=10);
+    opacity: 0.1
+}
+
+.owl-theme .owl-controls .owl-nav>div:hover {
+    background: transparent;
+    color: #000
+}
+
+.owl-theme .owl-controls .owl-nav .owl-prev {
+    left: -40px;
+    top: 55px
+}
+
+.owl-theme .owl-controls .owl-nav .owl-next {
+    right: -40px;
+    top: 55px
+}
+
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+    filter: Alpha(Opacity=100);
+    opacity: 1;
+    text-decoration: none
+}
+
+.owl-theme .owl-controls .owl-page {
+    display: inline-block;
+    zoom:1;
+    display: inline
+}
+
+.owl-theme .owl-controls .owl-page span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 5px 7px;
+    filter: Alpha(Opacity=50);
+    opacity: 0.5;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: #869791
+}
+
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+    height: auto;
+    width: auto;
+    color: #FFF;
+    padding: 2px 10px;
+    font-size: 12px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px
+}
+
+.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span {
+    filter: Alpha(Opacity=100);
+    opacity: 1;
+    background: transparent
+}
+
+.owl-item.loading {
+    min-height: 150px;
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1
+}
+
+.owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y
+}
+
+.owl-carousel .owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px)
+}
+
+.owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    -webkit-transform-style: preserve-3d
+}
+
+.owl-carousel .owl-nav.disabled,.owl-carousel .owl-dots.disabled {
+    display: none
+}
+
+.owl-carousel .owl-nav .owl-prev,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-dot {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.owl-carousel.owl-loaded {
+    display: block
+}
+
+.owl-carousel.owl-loading {
+    opacity: 0;
+    display: block
+}
+
+.owl-carousel.owl-hidden {
+    opacity: 0
+}
+
+.owl-carousel.owl-refresh .owl-item {
+    display: none
+}
+
+.owl-carousel.owl-drag .owl-item {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.owl-carousel.owl-grab {
+    cursor: move;
+    cursor: grab
+}
+
+.owl-carousel.owl-rtl {
+    direction: rtl
+}
+
+.owl-carousel.owl-rtl .owl-item {
+    float: right
+}
+
+.no-js .owl-carousel {
+    display: block
+}
+
+.owl-carousel .animated {
+    animation-duration: 1000ms;
+    animation-fill-mode: both
+}
+
+.owl-carousel .owl-animated-in {
+    z-index: 0
+}
+
+.owl-carousel .owl-animated-out {
+    z-index: 1
+}
+
+.owl-carousel .fadeOut {
+    animation-name: fadeOut
+}
+
+
+.owl-gallery-carousel .trans-gallery-carousel .item img {
+    width: 100%
+}
+
+.owl-thumb-gallery-carousel.main-theme .owl-stage-outer {
+    text-align: center;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden
+}
+
+.owl-thumb-gallery-carousel.main-theme .owl-stage-outer .owl-stage {
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.owl-thumb-gallery-carousel.main-theme .owl-stage-outer .owl-stage .item {
+    background: #073c6d;
+    padding: 13px 10px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-left: solid 1px #d0deed
+}
+
+.owl-thumb-gallery-carousel.main-theme .owl-stage-outer .owl-stage .current .item {
+    background: #073c6d;
+    color: #fff;
+    border-left-color: #0a63b1
+}
+
+.owl-thumb-gallery-carousel.main-theme .owl-stage-outer .owl-stage:befor {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    border: solid 1px #fff
+}
+
+.owl-thumb-gallery-carousel.main-theme.active-white .owl-stage-outer .current .item {
+    background: #dce5ee;
+    color: #073c6d;
+    border-left-color: #fff
+}
+
+.owl-thumb-gallery-carousel.main-theme.theme-icons .item {
+    position: relative;
+    padding-left: 70px !important
+}
+
+.owl-thumb-gallery-carousel.main-theme.theme-icons .item:before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: 4px;
+    background-image: url(https://apsbangalore.edu.in/resources/css/images/sprite.png);
+    background-position: 0 0;
+    background-repeat: none
+}
+
+.owl-thumb-gallery-carousel.main-theme.theme-icons .item.pre-primary:before {
+    background-position: -9px -9px
+}
+
+.owl-thumb-gallery-carousel.main-theme.theme-icons .item.primary:before {
+    background-position: -70px -9px
+}
+
+.owl-thumb-gallery-carousel.main-theme.theme-icons .item.high-school:before {
+    background-position: -129px -9px
+}
+
+.owl-thumb-gallery-carousel.corporate-theme {
+    margin-bottom: 30px
+}
+
+.owl-thumb-gallery-carousel.corporate-theme .owl-stage-outer {
+    text-align: center;
+    overflow: hidden
+}
+
+.owl-thumb-gallery-carousel.corporate-theme .owl-stage-outer .owl-stage {
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.owl-thumb-gallery-carousel.corporate-theme .owl-stage-outer .owl-stage .item {
+    padding: 10px 20px 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    border-top: solid 2px #FF5733
+}
+
+.owl-thumb-gallery-carousel.corporate-theme .owl-stage-outer .owl-stage .item a {
+    color: #00468a;
+    text-transform: uppercase
+}
+
+.owl-thumb-gallery-carousel.corporate-theme .owl-stage-outer .owl-stage .item a:hover {
+    text-decoration: none
+}
+
+.owl-thumb-gallery-carousel.corporate-theme .owl-stage-outer .owl-stage .item:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: -2px;
+    background-color: #FF5733;
+    height: 0;
+    z-index: -1;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    transition-property: all 0.4s ease
+}
+
+.owl-thumb-gallery-carousel.corporate-theme .owl-stage-outer .owl-stage .item:hover:before {
+    height: 100%;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    transition-property: all 0.4s ease-out
+}
+
+.owl-thumb-gallery-carousel.corporate-theme .owl-stage-outer .owl-stage .item:hover a {
+    color: #fff;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+    transition-property: all 0.6s ease-out
+}
+
+.owl-thumb-gallery-carousel.corporate-theme .owl-stage-outer .owl-stage .current .item {
+    border-top-color: #073c6d;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    transition-property: all 0.6s ease
+}
+
+.owl-thumb-gallery-carousel.corporate-theme .owl-stage-outer .owl-stage .current .item a,.owl-thumb-gallery-carousel.corporate-theme .owl-stage-outer .owl-stage .current .item a:hover {
+    color: #fff;
+    -webkit-transition: height 0.6s ease;
+    -moz-transition: height 0.6s ease;
+    -ms-transition: height 0.6s ease;
+    -o-transition: height 0.6s ease;
+    transition: height 0.6s ease;
+    transition-property: height 0.6s ease
+}
+
+.owl-thumb-gallery-carousel.corporate-theme .owl-stage-outer .owl-stage .current .item:before {
+    height: 100%;
+    background-color: #073c6d;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    transition-property: all 0.4s ease
+}
+
+.owl-thumb-gallery-carousel.corporate-theme-2 .owl-stage-outer {
+    text-align: center;
+    overflow: hidden
+}
+
+.owl-thumb-gallery-carousel.corporate-theme-2 .owl-stage-outer .owl-stage {
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.owl-thumb-gallery-carousel.corporate-theme-2 .owl-stage-outer .owl-stage .item {
+    padding-bottom: 15px
+}
+
+.owl-thumb-gallery-carousel.corporate-theme-2 .owl-stage-outer .owl-stage .item>a {
+    position: relative;
+    display: block;
+    padding: 13px 0;
+    color: #FF5733;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: solid 1px #d8d8d8;
+    text-transform: uppercase
+}
+
+.owl-thumb-gallery-carousel.corporate-theme-2 .owl-stage-outer .owl-stage .item>a:hover {
+    text-decoration: none
+}
+
+.owl-thumb-gallery-carousel.corporate-theme-2 .owl-stage-outer .owl-stage .current>.item>a {
+    border-bottom-color: #FF5733;
+    color: #FF5733
+}
+
+.owl-thumb-gallery-carousel.corporate-theme-2 .owl-stage-outer .owl-stage .current>.item>a:before {
+    position: absolute;
+    bottom: -15px;
+    left: 45%;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 15px solid #FF5733
+}
+
+.owl-thumb-gallery-carousel.corporate-theme-2 .owl-stage-outer .owl-stage .current>.item>a:after {
+    position: absolute;
+    bottom: -14px;
+    left: 45%;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 15px solid #f5f5f5
+}
+
+.owl-thumb-gallery-carousel.corporate-theme-2.theme-icons .item {
+    position: relative
+}
+
+.owl-thumb-gallery-carousel.corporate-theme-2.theme-icons .item:before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: 4px;
+    background-image: url(https://apsbangalore.edu.in/resources/css/images/sprite.png);
+    background-position: 0 0;
+    background-repeat: none
+}
+
+.owl-thumb-gallery-carousel.corporate-theme-2.theme-icons .item.pre-primary:before {
+    background-position: -9px -9px
+}
+
+.owl-thumb-gallery-carousel.corporate-theme-2.theme-icons .item.primary:before {
+    background-position: -70px -9px
+}
+
+.owl-thumb-gallery-carousel.corporate-theme-2.theme-icons .item.high-school:before {
+    background-position: -129px -9px
+}
